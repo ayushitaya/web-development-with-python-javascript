@@ -1,0 +1,76 @@
+.google-header{
+    float:right;
+    width:100%;
+    margin-top:18px;
+    margin-right:18px;
+    color:#3c4043;
+    
+}
+.google-header .fa-th{
+    font-size:20px;
+    color:gray;
+    float:right;
+    margin-right:20px;
+}
+.google-header .fa-th:hover {
+    color: #000;
+}
+.google-header a{
+    float:right;
+    margin-right:20px;
+    color:#333;
+    font-size:14px;
+}
+.google-header a:hover{
+    color:gray;
+    text-decoration:underline;
+}
+
+.search_box {
+    height:50px;
+    width:650px;    
+    }
+.input .search_box{
+    border-radius:24px;
+    margin-left:418px;
+    margin-bottom:20px;
+    border:1px solid #ddd;
+    padding:13px;
+    padding-left:45px;
+    outline:none;
+
+    }
+.input .search_box:hover {
+    border-color: #cccccc;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2),
+                0 2px 8px 0 rgba(0, 0, 0, 0.1);
+                
+}  
+.search_button{
+	border-style:none;
+	border-radius: 4px;
+	color: #3f3d3d;
+	background-color: #f8f8f8;
+    font-family: arial,sans-serif;
+    font-size: 16px;
+    margin:10px;
+    height: 38px;
+    width: 150px;
+    text-align: center;
+    cursor: pointer;
+    outline:none;
+    }
+.google_search .search_button:hover {
+    border: 1px solid #aaa;
+}
+.input .search-icon {
+    width: 22px;
+    opacity:0.3;
+    position:relative;
+    left:460px;
+}
+.input .voicesearch-icon{
+    width:25px;
+    position:relative;
+    right:54px;
+}
