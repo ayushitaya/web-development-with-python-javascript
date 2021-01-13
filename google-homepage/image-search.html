@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google Image Search</title>
+        <style>
+            .google-header{
+                float:right;
+                width:100%;
+                margin-top:18px;
+                margin-right:18px;
+                color:#3c4043;
+                }
+            .google-header a{
+                float:right;
+                margin-right:20px;
+                color:#333;
+                font-size:14px;
+            }
+            .google-header a:hover{
+                color:gray;
+                text-decoration:underline;
+            }
+            .input .search_box{
+                border-radius:24px;
+                margin-left:468px;
+                margin-top:18px;
+                border:1px solid #ddd;
+                padding:13px;
+                padding-left:45px;
+                outline:none;
+                height:20px;
+                width:480px;
+                }
+            .input .search_box:hover {
+                border-color: #cccccc;
+                box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2),
+                            0 2px 8px 0 rgba(0, 0, 0, 0.1);
+                            
+            }
+              .input .search-icon {
+                width: 20px;
+                opacity:0.4;
+                position:relative;
+                left:508px;
+                top:7px;
+            }
+            .input .voicesearch-icon{
+                width:22px;
+                position:relative;
+                right:122px;
+                top:7px;
+            }
+
+            .input .camera-icon{
+                width:27px;
+                position:relative;
+                right:135px;
+                opacity:0.6;
+                top:7px;
+            }
+            .input .img-search-icon{
+                width:21px;
+                position:relative;
+                right:105px;
+                top:7px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="google-header">
+            <a href="google_page.html">Back</a>
+        </div>
+        <div class="google-image">
+            <img src="google-img-logo.png" style="position:relative; width:270px; height:92px; border:none;margin:112px 625px auto;"></image>
+        </div>
+        <form action="https://www.google.com/imghp?hl=en&tab=wi&ei=yeCeVp3uLcyMmQH3mJ8w&ved=0EKouCBYoAQ">
+            <div class="input">
+                    <img src="s-icon.png" class="search-icon">
+                    <input type="text" name="query"  class="search_box"> 
+                    <img src="c-icon.png" class="camera-icon">
+                    <img src="vs-icon.png" class="voicesearch-icon">
+                    <img src="is-icon.png" class="img-search-icon">
+            </div>		
+        </form>
+    </body>
+</html>
